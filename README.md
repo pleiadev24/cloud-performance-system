@@ -13,5 +13,4 @@
 2. Create a simple shell script that taskes user input of username and prints hello 'name'. Use github actions and add script badge into repository
 [![Run My Script](https://github.com/pleiadev24/cloud-performance-system/actions/workflows/main.yml/badge.svg)](https://github.com/pleiadev24/cloud-performance-system/actions/workflows/main.yml)
 
-![output2](cloud-performance-system
-/ouput2.png)
+![output2](https://github.com/pleiadev24/cloud-performance-system/blob/main/ouput2.png)
