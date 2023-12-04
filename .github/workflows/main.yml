@@ -1,5 +1,3 @@
-# .github/workflows/main.yml
-
 name: Run My Script
 
 on:
@@ -12,8 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Run My Script
-      run: ./myscript.sh
+      - name: Run My Script
+        run: ./myscript.sh
+
+      - name: Diagnostic Info
+        run: |
+          ls -l
+          file ./myscript.sh
+          cat ./myscript.sh
