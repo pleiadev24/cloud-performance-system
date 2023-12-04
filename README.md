@@ -14,3 +14,22 @@
 [![Run My Script](https://github.com/pleiadev24/cloud-performance-system/actions/workflows/main.yml/badge.svg)](https://github.com/pleiadev24/cloud-performance-system/actions/workflows/main.yml)
 
 ![output2](https://github.com/pleiadev24/cloud-performance-system/blob/main/ouput2.png)
+
+
+### Task 3
+
+### Network Information Tool
+
+This is a simple shell script that provides information about the network configuration of the system.
+
+## Features
+
+- Displays IP addresses for all network interfaces.
+- Lists active network connections.
+
+## Usage
+
+1. Make the script executable:
+   ```bash
+   chmod +x network_info.sh
+
