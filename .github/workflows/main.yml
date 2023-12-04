@@ -1,0 +1,19 @@
+# .github/workflows/main.yml
+
+name: Run My Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Run My Script
+      run: ./myscript.sh
